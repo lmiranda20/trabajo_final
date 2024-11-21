@@ -1,0 +1,125 @@
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 90%;
+    max-width: 600px;
+    margin: 0; 
+    padding: 2rem;
+    box-sizing: border-box; 
+    background-color: #1c1c1c;
+    border: 2px solid #292929;
+}
+
+.tituloInicio {
+    color: #ff6347;
+    font-size: 2rem;
+    margin: 0 0 2rem; 
+    padding: 1rem; 
+    text-align: center;
+    border-bottom: #292929 solid;
+}
+
+.usuario, .contraseña {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    padding-bottom: 1rem;
+}
+
+.usuario input, .contraseña input {
+    margin: 0.5rem 0;
+    width: 100%; 
+}
+
+.Boton {
+    width: 100%; 
+    max-width: 400px; 
+    margin-bottom: 1rem; 
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .formulario {
+        padding: 1rem;
+    }
+
+    .tituloInicio {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .usuario input{
+        margin: 0.3rem 0;
+    }
+
+    .contraseña input {
+        margin: 0.3rem 0;
+    }
+
+    .Boton {
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 768px){
+
+}
+@media (max-width: 1024px) {
+    .formulario {
+        padding: 1.5rem;
+    }
+
+    .tituloInicio {
+        font-size: 1.75rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .usuario input {
+        margin: 0.4rem 0;
+    }
+
+    .contraseña input {
+        margin: 0.4rem 0;
+    }
+
+    .Boton {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .formulario {
+        padding: 2rem;
+    }
+
+    .tituloInicio {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .usuario input{
+        margin: 0.5rem 0;
+    }
+
+    .contraseña input {
+        margin: 0.5rem 0;
+    }
+
+    .Boton {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,144 @@
+/* acerca.css */
+
+.acerca {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .acerca h1 {
+    margin: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .acerca p {
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+  
+  .contacto {
+    margin-top: 1rem;
+  }
+  
+  .contacto h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contacto p {
+    text-align: center;
+  }
+  
+  /* Media Queries */
+  
+  /* Pantallas móviles horizontales (hasta 480px) */
+  @media (max-width: 480px) {
+    .acerca {
+      padding: 1rem;
+    }
+  
+    .acerca h1 {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+  
+    .acerca p {
+      font-size: 1rem;
+    }
+  
+    .contacto {
+      margin-top: 1rem;
+    }
+  
+    .contacto h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contacto p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Tabletas y pantallas pequeñas (hasta 768px) */
+  @media (max-width: 768px) {
+    .acerca {
+      padding: 1.5rem;
+    }
+  
+    .acerca h1 {
+      font-size: 1.8rem;
+    }
+  
+    .acerca p {
+      font-size: 1.2rem;
+    }
+  
+    .contacto {
+      margin-top: 1.5rem;
+    }
+  
+    .contacto h2 {
+      font-size: 1.8rem;
+    }
+  
+    .contacto p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Pantallas medianas (hasta 1024px) */
+  @media (max-width: 1024px) {
+    .acerca {
+      padding: 2rem;
+    }
+  
+    .acerca h1 {
+      font-size: 2rem;
+    }
+  
+    .acerca p {
+      font-size: 1.3rem;
+    }
+  
+    .contacto {
+      margin-top: 2rem;
+    }
+  
+    .contacto h2 {
+      font-size: 2rem;
+    }
+  
+    .contacto p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Pantallas grandes (1280px y superiores) */
+  @media (min-width: 1280px) {
+    .acerca {
+      padding: 2rem 4rem;
+    }
+  
+    .acerca h1 {
+      font-size: 2.5rem;
+    }
+  
+    .acerca p {
+      font-size: 1.4rem;
+    }
+  
+    .contacto {
+      margin-top: 2.5rem;
+    }
+  
+    .contacto h2 {
+      font-size: 2.5rem;
+    }
+  
+    .contacto p {
+      font-size: 1.4rem;
+    }
+  }
+  

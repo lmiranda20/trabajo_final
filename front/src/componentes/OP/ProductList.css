@@ -1,0 +1,9 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .producto_card {
+    flex: 1 1 calc(33.333% - 2rem);
+    margin: 1rem;
+  }

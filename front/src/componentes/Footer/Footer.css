@@ -1,0 +1,73 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.texto {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem; 
+}
+
+.imgLogo {
+    width: 20%; 
+}
+
+.logoWhatsaap {
+    width: 2rem; 
+    margin-top: 0.5rem; 
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .texto {
+        font-size: 1rem; 
+        margin-bottom: 0; 
+    }
+
+    .imgLogo {
+        width: 5%; 
+    }
+
+    .logoWhatsaap {
+        width: 2.5rem; 
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .texto {
+        font-size: 1.125rem; 
+    }
+
+    .imgLogo {
+        width: 3%; 
+    }
+
+    .logoWhatsaap {
+        width: 3rem; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .texto {
+        font-size: 1.25rem;
+    }
+
+    .imgLogo {
+        width: 2.5%; 
+    }
+
+    .logoWhatsaap {
+        width: 3.5rem; 
+    }
+}

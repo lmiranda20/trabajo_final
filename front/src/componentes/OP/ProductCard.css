@@ -1,0 +1,66 @@
+.producto_imagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .producto_card {
+    border: 1px solid #454040;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    background-color: #2a2424;
+  }
+  
+  .producto_card h2 {
+    font-size: 1.5rem;
+    margin: 0; 
+  }
+  
+  .producto_card p {
+    font-size: 1rem;
+    margin: 0.5rem 0; 
+  }
+  
+  .producto_card select {
+    margin-top: 0.5rem;
+    background-color:#494242;
+    padding: 0.25rem;
+    border-radius: 4px; 
+  }
+  .producto_card select:hover {
+    background-color: #3c3636;
+    color:#ff6347;
+  }
+  
+  .producto_card button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #494242;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .producto_card button:hover {
+    background-color: #3c3636;
+    color:#ff6347;
+  }
+  
+  .seccion_buy {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #454040;
+    border-radius: 8px;
+    background-color: #2f2828;
+  }
+  
+  .seccion_buy h3 {
+    margin-top: 0;
+  }
+  
+  .seccion_buy button {
+    margin-right: 0.5rem;
+  }
